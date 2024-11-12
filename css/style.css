@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "alfa-slab-one";
+  src: url("AlfaSlabOne-Regular.ttf") format("truetype");
+}
+body {
+  background-image: url("../img/fond.webp");
+}
+body > span {
+  font-family: "alfa-slab-one";
+  background-color: black;
+  color: white;
+  padding: 0 1rem;
+  float: right;
+}
+body hr {
+  background-color: #535753;
+  height: 2px;
+}
+body .clear {
+  clear: both;
+}
+body #logo {
+  border: 1px solid blue;
+  font-family: "alfa-slab-one";
+  display: inline-block;
+  opacity: 60%;
+  width: 10%;
+}
+body #logo img {
+  box-sizing: border-box;
+  width: 100%;
+}
+body #title-flex {
+  border: red solid 1px;
+  width: 89.5%;
+  font-family: "alfa-slab-one";
+  display: inline-block;
+}
+body #title-flex h2 {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem 0.5rem;
+}
+body #title-flex h1 span {
+  color: #535753;
+}
+body #title-flex h4 {
+  color: #535753;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+body .container .card {
+  width: 20%;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 15px 5px #454545;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(174, 174, 177) 100%);
+}
+body .container .card h3 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+body .container .card p {
+  text-align: justify;
+}
+body .container .card .box {
+  border: 1px solid black;
+  margin-right: 0.4rem;
+  width: 50%;
+  float: left;
+}
+body .container .card .box img {
+  width: 100%;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+body .container .card .box .text-box {
+  font-family: "alfa-slab-one";
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+}
+body .container .card button {
+  background-color: black;
+  color: white;
+  font-family: "alfa-slab-one";
+  border-radius: 5px;
+  float: right;
+}/*# sourceMappingURL=style.css.map */
