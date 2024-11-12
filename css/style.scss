@@ -1,5 +1,5 @@
-@import "typo";
-@import "mixins";
+@import "../css/scss/typo";
+@import "../css/scss/mixins";
 
 body {
 
@@ -165,7 +165,7 @@ body {
                 color: white;
                 background-color: black;
                 border-radius: 5px;
-                
+
                 border: 1px solid black;
                 font-family: "alfa-slab-one";
                 font-size: 1.2rem;
