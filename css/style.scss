@@ -1,5 +1,6 @@
 @import "../css/scss/typo";
 @import "../css/scss/mixins";
+@import "../css/scss/colors";
 
 body {
 
@@ -7,9 +8,8 @@ body {
     background-image: url("../img/fond.webp");
 
     >span {
+        @include white-black;
         font-family: "alfa-slab-one";
-        color: white;
-        background-color: black;
         padding: 0 1rem;
         float: right;
     }
@@ -61,10 +61,8 @@ body {
         }
 
         h2 {
-            color: white;
-            background-color: black;
+            @include white-black;
             border-radius: 5px;
-
             padding: 0.8rem 0.5rem;
 
             @include media-smartphone {
@@ -110,10 +108,8 @@ body {
             background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(174, 174, 177, 1) 100%);
 
             h3 {
-                color: white;
-                background-color: black;
+                @include white-black;
                 border-radius: 5px;
-
                 text-align: center;
                 font-size: 1.5rem;
                 margin: 0 0.5rem;
@@ -160,10 +156,8 @@ body {
             }
 
             button {
-                color: white;
-                background-color: black;
+                @include white-black;
                 border-radius: 5px;
-
                 border: 1px solid black;
                 font-family: "alfa-slab-one";
                 font-size: 1.2rem;

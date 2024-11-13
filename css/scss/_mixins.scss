@@ -1,4 +1,4 @@
-// Triangle mixin
+// Triangle
 @mixin triangle($color) {
     display: inline;
     margin-left: 0.8rem;
@@ -11,7 +11,7 @@
     border-right: 1rem solid transparent;
 }
 
-// media query smartphone
+// Media query smartphone
 @mixin media-smartphone {
     @media screen and (max-width: 414px) {
         @content;

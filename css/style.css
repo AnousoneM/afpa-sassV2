@@ -7,9 +7,9 @@ body {
   background-image: url("../img/fond.webp");
 }
 body > span {
-  font-family: "alfa-slab-one";
   color: white;
   background-color: black;
+  font-family: "alfa-slab-one";
   padding: 0 1rem;
   float: right;
 }
